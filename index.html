@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Coming Soon Page</title>
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <!-- Start Events -->
+    <header>
+      <a href="#" class="logo">Brand Name</a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <img src="imgs/curve.png" class="wave" />
+      <div class="contentBx">
+        <h2>Coming Soon</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facilis
+          maxime asperiores tempora ad sapiente, odit dicta ipsam magni
+          reiciendis voluptatem provident, fugit iusto exercitationem incidunt
+          nemo, eius laborum! Quibusdam!
+        </p>
+        <div class="countdown">
+          <div class="time">
+            <div id="day"></div>
+            <span>Days</span>
+          </div>
+          <div class="time">
+            <div id="hour"></div>
+            <span>Hours</span>
+          </div>
+          <div class="time">
+            <div id="minute"></div>
+            <span>Minutes</span>
+          </div>
+          <div class="time">
+            <div id="second"></div>
+            <span>Seconds</span>
+          </div>
+        </div>
+        <a href="#" onclick="toggle();">Notify Me!</a>
+      </div>
+      <div class="imgBx">
+        <img src="imgs/man.png" />
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="imgs/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="imgs/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="imgs/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="newsletter">
+      <h2>Stay Tuned</h2>
+      <p>Get notified at launch</p>
+      <div class="inputBox">
+        <form>
+          <input
+            type="email"
+            name=""
+            required=""
+            placeholder="Enter Email Address"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <img src="imgs/close.png" class="close" onclick="toggle();" />
+    </div>
+    <!-- End Events -->
+    <script src="main.js"></script>
+  </body>
+</html>
